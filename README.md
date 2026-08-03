@@ -42,7 +42,15 @@ does not reuse its prompts. It only sees what a user would see:
 ![Evaluation Dashboard](assets/medimama_eval2.png)
 ![Evaluation Dashboard](assets/medimama_evaluation.png)
 
+| Metric | Score | Notes |
+|---|---|---|
+| **Clinical Safety** | `100%` | 0 dangerous downgrades across evaluated test cases. (See dashboard screenshot) |
+| Faithfulness | `WIP` | *Full benchmark pending final dataset validation* |
+| Answer Relevance | `WIP` | *Full benchmark pending final dataset validation* |
+| Context Precision | `WIP` | *Full benchmark pending final dataset validation* |
+| Context Recall | `WIP` | *Full benchmark pending final dataset validation* |
 
+*(Note: WIP = Work in Progress. Current focus has been strictly on optimizing the Clinical Safety threshold and Triage Consistency.)*
 
 **Evaluation set:** `__` hand-written pediatric queries with clinician-style
 ground truth, covering `__` triage levels.
